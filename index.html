@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- main-css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- home-css -->
@@ -16,7 +19,7 @@
             <h2 class="site-logo"> AG </h2>
             <nav class="header-nav flex">
                 <a href="#home" class="active"> home </a>
-                <a href=""> about </a>
+                <a href="#about"> about </a>
                 <a href=""> portfoilio </a>
                 <a href=""> services </a>
                 <a href=""> prices </a>
@@ -27,7 +30,7 @@
         </div>
     </header>
     <!-- main-section -->
-    <main class="main-sec  flex-center">
+    <main class="main-sec  flex-center normal-overlay" id="home">
         <div class="main-container text-center">
             <h1 class="main-heading"> We Are Creative Agency </h1>
             <p class="main-detail"> We provide Service with efficiency in Time & Quality </p>
@@ -41,5 +44,232 @@
             </div>
         </div>
     </main>
+    <!-- about-us -->
+    <section class="about-us main-padd" id="about-us">
+        <div class="about-us-container">
+            <div class="heading-container flex-center">
+                <h2 class="sec-heading"> Welecome to our Agency </h2>
+            </div>
+            <div class="sec-container about-us-box-container grid">
+                <div class="about-us-box sec-layer-box text-center top-left-layer">
+                    <i class="fas fa-code about-us-icon box-icon"></i>
+                    <h3 class="about-us-heading"> Based in sudan </h3>
+                    <p class="about-us-detail"> but we have workers from other places </p>
+                    <a href="" class="read-more"> Read More </a>
+                </div>
+                <div class="about-us-box sec-layer-box text-center top-left-layer">
+                    <i class="fas fa-code about-us-icon box-icon"></i>
+                    <h3 class="about-us-heading"> Best in programming </h3>
+                    <p class="about-us-detail"> This what our Agency about</p>
+                    <a href="" class="read-more"> Read More </a>
+                </div>
+                <div class="about-us-box sec-layer-box text-center top-left-layer">
+                    <i class="fas fa-code about-us-icon box-icon"></i>
+                    <h3 class="about-us-heading"> active 24/7 </h3>
+                    <p class="about-us-detail"> So you can get your job Done! </p>
+                    <a href="" class="read-more"> Read More </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio -->
+    <section class="sec-container portfolio-sec main-padd">
+        <div class="heading-container flex-center">
+            <h2 class="sec-heading"> Projects </h2>
+        </div>
+        <div class="portfoilio-container grid">
+            <div class="portfolio-box">
+                <figure>
+                    <img src="images/work/work1.webp" alt="project">
+                </figure>
+                <div class="info-overlay flex-center">
+                    <div class="info-overlay-container text-center">
+                        <h3 class="Project-name"> CALA </h3>
+                    <p class="project-details"> Ecommerce </p>
+                    <div class="langauge-used flex">
+                        <i class="fab fa-html5 box-icon"></i>
+                        <i class="fab fa-css3 box-icon"></i>
+                        <i class="fab fa-js box-icon"></i>
+                    </div>
+                    <div class="project-place flex">
+                        <i class="fab fa-github box-icon"></i>
+                        <i class="fas fa-server box-icon"></i>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <figure>
+                    <img src="images/work/work1.webp" alt="project">
+                </figure>
+                <div class="info-overlay flex-center">
+                    <div class="info-overlay-container text-center">
+                        <h3 class="Project-name"> CALA </h3>
+                    <p class="project-details"> Ecommerce </p>
+                    <div class="langauge-used flex">
+                        <i class="fab fa-html5 box-icon"></i>
+                        <i class="fab fa-css3 box-icon"></i>
+                        <i class="fab fa-js box-icon"></i>
+                    </div>
+                    <div class="project-place flex">
+                        <i class="fab fa-github box-icon"></i>
+                        <i class="fas fa-server box-icon"></i>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <figure>
+                    <img src="images/work/work1.webp" alt="project">
+                </figure>
+                <div class="info-overlay flex-center">
+                    <div class="info-overlay-container text-center">
+                        <h3 class="Project-name"> CALA </h3>
+                    <p class="project-details"> Ecommerce </p>
+                    <div class="langauge-used flex">
+                        <i class="fab fa-html5 box-icon"></i>
+                        <i class="fab fa-css3 box-icon"></i>
+                        <i class="fab fa-js box-icon"></i>
+                    </div>
+                    <div class="project-place flex">
+                        <i class="fab fa-github box-icon"></i>
+                        <i class="fas fa-server box-icon"></i>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section class="services-sec main-padd">
+        <div class="heading-container flex-center">
+            <h2 class="sec-heading"> What We Offer </h2>
+        </div>
+        <div class="sec-container services-container grid">
+            <div class="service-box sec-layer-box top-left-layer">
+                <div class="service-upper flex">
+                    <i class="fas fa-mobile box-icon"></i>
+                    <h3 class="service-heading"> Responsiveness </h3>
+                </div>
+                <p class="service-details">
+                    Responsive in all screens , so users have the ability to access your website from different divices
+                </p>
+            </div>
+            <div class="service-box sec-layer-box top-left-layer">
+                <div class="service-upper flex">
+                    <i class="fas fa-bolt box-icon"></i>
+                    <h3 class="service-heading"> High performance </h3>
+                </div>
+                <p class="service-details">
+                    To attract more users to interact with decent website performance
+                </p>
+            </div>
+            <div class="service-box sec-layer-box top-left-layer">
+                <div class="service-upper flex">
+                    <i class="fas fa-language box-icon"></i>
+                    <h3 class="service-heading"> Multilingual Websites </h3>
+                </div>
+                <p class="service-details">
+                    More than one langauge , so you can include users around the world to your website
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- why-chose-us -->
+    <section class="chose-us-sec main-padd">
+        <div class="heading-container">
+            <h2 class="sec-heading"> Why Chose Us </h2>
+        </div>
+        <div class="sec-container chose-sec-container flex-center">
+            <div class="chose-sec-start">
+                <div class="reason flex">
+                    <i class="far fa-check-circle box-icon"></i>
+                    <span> Moderate prices </span>
+                </div>
+                <div class="reason flex">
+                    <i class="far fa-check-circle box-icon"></i>
+                    <span> Quality & Efficient Work </span>
+                </div>
+                <div class="reason flex">
+                    <i class="far fa-check-circle box-icon"></i>
+                    <span> In time </span>
+                </div>
+            </div>
+            <div class="chose-sec-end">
+                <figure>
+                    <img src="images/work/work1.webp" alt="">
+                </figure>
+                <div class="radio-parent flex-center">
+                    <input type="radio" name="chose" id="">
+                    <input type="radio" name="chose" id="">
+                    <input type="radio" name="chose" id="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- first-banar-section -->
+    <section class="banar-sec first-banar-sec flex-center main-padd normal-overlay">
+        <div class="banar-container flex text-center">
+            <div class="banar-box"> 
+               <i class="fas fa-users box-icon"></i>
+               <p class="number-count">451k</p>
+               <h3 class="number-description"> Happy Clients </h3>
+              </div> 
+              <div class="banar-box"> 
+                <i class="fas fa-trophy box-icon"></i>
+                <p class="number-count">12</p>
+                <h3 class="number-description"> Awards Won </h3>
+              </div>
+              <div class="banar-box"> 
+               <i class="fas fa-mug-hot box-icon"></i>
+               <p class="number-count">154k</p>
+               <h3 class="number-description"> Cups of Coffee </h3>
+              </div>
+              <div class="banar-box"> 
+               <i class="fas fa-tasks box-icon"></i>
+               <p class="number-count">45</p>
+               <h3 class="number-description"> Project Completed </h3>
+             </div>
+        </div>
+    </section>
+    <!-- price-section -->
+    <section class="prices-sec main-padd" id="prices">
+        <div class="heading-container flex-center">
+            <h2 class="sec-heading"> Prices </h2>
+        </div>
+        <div class="sec-container prices-container grid text-center">
+            <div class="price-box sec-layer-box text-center top-left-layer">
+                <h3 class="price-heading"> Basic Plan </h3>
+                <div class="price-per-time">
+                    <p class="price"> $9 </p>
+                    <p class="time"> /Month </p>
+                </div>
+                <p class="price-detail"> try it </p>
+                <button class="purchase-btn"> Purchase Now </button>
+            </div>
+            <div class="price-box sec-layer-box text-center top-left-layer">
+                <h3 class="price-heading"> Recommended Plan </h3>
+                <div class="price-per-time">
+                    <p class="price"> $9 </p>
+                    <p class="time"> /Month </p>
+                </div>
+                <p class="price-detail"> This what our Agency about</p>
+                <button class="purchase-btn"> Purchase Now </button>
+            </div>
+            <div class="price-box sec-layer-box text-center top-left-layer">
+                <h3 class="price-heading"> Luxry Plan </h3>
+                <div class="price-per-time">
+                    <p class="price"> $9 </p>
+                    <p class="time"> /Month </p>
+                </div>
+                <p class="price-detail"> So you can get your job Done! </p>
+                <button class="purchase-btn"> Purchase Now </button>
+            </div>
+        </div>
+        
+    </section>
 </body>
 </html>

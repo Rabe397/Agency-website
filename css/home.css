@@ -2,15 +2,6 @@
 .main-sec{
     background: url(../images/background/background1.webp) no-repeat center;
     height: 100vh;
-    position: relative;
-}
-.main-sec::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.9);
 }
 .main-container{
     color: white;
@@ -36,4 +27,138 @@
 .learn-btn{
     background-color: var(--main-color);
     color: white;
+}
+
+/* about-us-section */
+.about-us-box{
+    border: 1px solid black;
+    padding: 25px 10px;
+    transition: 0.2s;
+}
+.about-us-heading{
+    margin: 12px 0;
+    font-size: 1.8rem;
+}
+.read-more{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.read-more{
+    text-decoration: underline;
+    margin-top: 12px;
+    font-size: 1.2rem;
+}
+
+
+/* portfolio-section */
+.portfoilio-container{
+    margin-top: 40px;
+}
+.portfolio-box{
+    position: relative;
+}
+.portfolio-box img{
+    width: 100%;
+    height: 300px;
+}
+.info-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;   
+}
+.portfolio-box:hover .info-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.Project-name , .project-details{
+    color: white;
+}
+.Project-name{
+    font-size: 1.6rem;
+}
+.project-details{
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+.langauge-used.flex , .project-place.flex{
+    gap: 3px;
+}
+.project-place{
+    margin-top: 15px;
+}
+
+
+/* services-section */
+.service-box{
+    border: 1px solid black;
+    padding: 20px 15px;
+}
+.service-upper.flex{
+    justify-content: unset;
+    gap: 15px;
+}
+.service-details{
+    margin-top: 15px;
+}
+
+/* chose-us-sec */
+.chose-sec-container.flex-center{
+    gap: 50px;
+}
+.reason{
+    margin-bottom: 15px;
+}
+.reason.flex{
+    justify-content: unset;
+    gap: 5px;
+}
+.chose-sec-end img{
+    height: 300px;
+}
+.radio-parent.flex-center{
+    gap: 1px;
+}
+
+/* first-banar-sec */
+.first-banar-sec{
+    background-image: url(../images/background/background2.webp);
+}
+.banar-container{
+    color: white;
+    z-index: 2;
+    width: 100%;
+}
+.number-count{
+    margin: 7px 0;
+}
+
+/* price-section */
+.price-box{
+    border: 1px solid black;
+    padding: 20px 0; 
+}
+.price-per-time{
+    width: 70px;
+    height: 70px;
+    margin: 15px auto;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    /* padding: 5px; */
+}
+.purchase-btn{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
 }

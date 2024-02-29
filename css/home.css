@@ -1,0 +1,39 @@
+/* main-section */
+.main-sec{
+    background: url(../images/background/background1.webp) no-repeat center;
+    height: 100vh;
+    position: relative;
+}
+.main-sec::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+.main-container{
+    color: white;
+    z-index: 2;
+}
+.main-heading{
+    font-size: 3rem;
+}
+.main-detail{
+    margin: 10px 0;
+}
+.main-btns.flex-center{
+    gap: 4px;
+}
+.main-btn{
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.start-btn{
+    background-color: white;
+    color: black;
+}
+.learn-btn{
+    background-color: var(--main-color);
+    color: white;
+}

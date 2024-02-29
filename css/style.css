@@ -8,6 +8,7 @@
     --main-color: rgb(74, 186, 238);
 }
 a{
+    display: block;
     text-decoration: none;
     color: unset;
 }
@@ -21,13 +22,20 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main-padd{
     padding: 0 2rem;
 }
-
+.text-center{
+    text-align: center;
+}
 /* header */
 .site-header{
-    background-color: black;
+    /* background-color: black; */
     color: white;
     position: fixed;
     top: 0;
@@ -55,5 +63,8 @@ button{
     transition: 1s;
 }
 .header-nav a:hover::after{
+    width: 100%;
+}
+.header-nav a.active::after{
     width: 100%;
 }

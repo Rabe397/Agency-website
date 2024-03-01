@@ -11,6 +11,7 @@ a{
     display: block;
     text-decoration: none;
     color: unset;
+    cursor: pointer;
 }
 button{
     cursor: pointer;
@@ -33,10 +34,10 @@ section{
 .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10%;
+    grid-gap: 50px;
 }
 .main-padd{
-    padding: 0 2rem;
+    padding: 0 6rem;
 }
 .text-center{
     text-align: center;
@@ -105,6 +106,7 @@ section{
 .banar-sec.flex-center{
     justify-content: unset;
 }
+
 /* header */
 .site-header{
     /* background-color: black; */
@@ -114,10 +116,13 @@ section{
     left: 0;
     right: 0;
     z-index:99;
-    padding: 15px 2rem;
+}
+.header-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .header-nav{
-    width: 60%;
+    width: 75%;
     font-size: 1.2rem;
     text-transform: capitalize;
 }
@@ -139,4 +144,107 @@ section{
 }
 .header-nav a.active::after{
     width: 100%;
+}
+.mob-icons , .none{
+    display: none;
+}
+
+/* footer */
+footer{
+    margin-top: 90px;
+    background-color: black;
+    color: white;
+    padding: 20px 6rem 3px 6rem;
+}
+.developer-accounts.flex{
+    gap: 15px;
+}
+.developer-accounts i{
+    background-color: rgb(16, 114, 194);
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+.copy-right{
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+/* media-query */
+@media(max-width: 1024px){
+    /* common */
+    .main-padd{
+        padding: 0 2rem;
+    }
+    /* footer */
+    footer{
+        padding: 20px 2rem 3px 2rem;
+    }
+}
+@media(max-width: 768px){
+    /* common */
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* header */
+    .header-nav{
+        position: fixed;
+        top: 57px;
+        right: 2rem;
+        padding: 10px 0;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        width: 150px;
+        display: none;
+    }
+    .active{
+        display: flex;
+    }
+    .header-nav.flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .mob-icons{
+        display: block;
+    }
+
+}
+@media(max-width: 500px){
+    /* common */
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media(max-width: 425px){
+    /* common */
+    .main-padd{
+        padding: 0 1rem;
+    }
+    /* header */
+    .header-nav{
+        right: 1rem;
+    }
+}
+@media(max-width: 375px){
+    /* footer */
+    .developer-accounts i{
+        height: 30px;
+        width: 30px;
+        font-size: 0.9rem;
+    }
+    .copy-right {
+        font-size: 0.9rem;
+    }
+}     
+@media(max-width: 290px){
+    /* footer */
+    .footer-container .start.flex{
+        flex-direction: column;
+        gap: 12px;
+    }
 }

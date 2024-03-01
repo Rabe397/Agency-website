@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> A+ </title>
+    <!-- font-awesome-icon-cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,17 +17,21 @@
     <!-- header -->
     <header class="site-header main-padd">
         <div class="header-container flex">
-            <h2 class="site-logo"> AG </h2>
+            <h2 class="site-logo"> A+ </h2>
             <nav class="header-nav flex">
                 <a href="#home" class="active"> home </a>
                 <a href="#about"> about </a>
-                <a href=""> portfoilio </a>
-                <a href=""> services </a>
-                <a href=""> prices </a>
-                <a href=""> team </a>
-                <a href=""> blog </a>
-                <a href=""> contact </a>
+                <a href="#portfolio"> portfoilio </a>
+                <a href="#services"> services </a>
+                <a href="#prices"> prices </a>
+                <a href="#team"> team </a>
+                <a> blog </a>
+                <a> contact </a>
             </nav>
+            <div class="mob-icons">
+                <i class="fas fa-bars bars-icon"></i>
+                <i class="fas fa-times times-icon none"></i>
+            </div>
         </div>
     </header>
     <!-- main-section -->
@@ -45,7 +50,7 @@
         </div>
     </main>
     <!-- about-us -->
-    <section class="about-us main-padd" id="about-us">
+    <section class="about-us main-padd" id="about">
         <div class="about-us-container">
             <div class="heading-container flex-center">
                 <h2 class="sec-heading"> Welecome to our Agency </h2>
@@ -73,70 +78,67 @@
         </div>
     </section>
     <!-- portfolio -->
-    <section class="sec-container portfolio-sec main-padd">
+    <section class="sec-container portfolio-sec main-padd" id="portfolio">
         <div class="heading-container flex-center">
             <h2 class="sec-heading"> Projects </h2>
         </div>
         <div class="portfoilio-container grid">
             <div class="portfolio-box">
                 <figure>
-                    <img src="images/work/work1.webp" alt="project">
+                    <img src="images/projects/project1.png" alt="project">
                 </figure>
                 <div class="info-overlay flex-center">
                     <div class="info-overlay-container text-center">
                         <h3 class="Project-name"> CALA </h3>
-                    <p class="project-details"> Ecommerce </p>
-                    <div class="langauge-used flex">
-                        <i class="fab fa-html5 box-icon"></i>
-                        <i class="fab fa-css3 box-icon"></i>
-                        <i class="fab fa-js box-icon"></i>
-                    </div>
-                    <div class="project-place flex">
-                        <i class="fab fa-github box-icon"></i>
-                        <i class="fas fa-server box-icon"></i>
-                    </div>
+                        <p class="project-details"> Ecommerce </p>
+                        <div class="langauge-used flex">
+                          <i class="fab fa-html5 box-icon"></i>
+                          <i class="fab fa-css3 box-icon"></i>
+                          <i class="fab fa-js box-icon"></i>
+                        </div>
+                        <div class="project-place">
+                          <p> Almost Finished </p>
+                        </div>
                     </div>
                     
                 </div>
             </div>
             <div class="portfolio-box">
                 <figure>
-                    <img src="images/work/work1.webp" alt="project">
+                    <img src="images/projects/project2.png" alt="project">
                 </figure>
                 <div class="info-overlay flex-center">
                     <div class="info-overlay-container text-center">
-                        <h3 class="Project-name"> CALA </h3>
-                    <p class="project-details"> Ecommerce </p>
-                    <div class="langauge-used flex">
-                        <i class="fab fa-html5 box-icon"></i>
-                        <i class="fab fa-css3 box-icon"></i>
-                        <i class="fab fa-js box-icon"></i>
-                    </div>
-                    <div class="project-place flex">
-                        <i class="fab fa-github box-icon"></i>
-                        <i class="fas fa-server box-icon"></i>
-                    </div>
+                        <h3 class="Project-name"> Comfy House </h3>
+                        <p class="project-details"> Ecommerce </p>
+                        <div class="langauge-used flex">
+                          <i class="fab fa-html5 box-icon"></i>
+                          <i class="fab fa-css3 box-icon"></i>
+                          <i class="fab fa-js box-icon"></i>
+                        </div>
+                        <div class="project-place">
+                          <p> Working on it </p>
+                        </div>
                     </div>
                     
                 </div>
             </div>
             <div class="portfolio-box">
                 <figure>
-                    <img src="images/work/work1.webp" alt="project">
+                    <img src="images/projects/project3.png" alt="project">
                 </figure>
                 <div class="info-overlay flex-center">
                     <div class="info-overlay-container text-center">
-                        <h3 class="Project-name"> CALA </h3>
-                    <p class="project-details"> Ecommerce </p>
-                    <div class="langauge-used flex">
-                        <i class="fab fa-html5 box-icon"></i>
-                        <i class="fab fa-css3 box-icon"></i>
-                        <i class="fab fa-js box-icon"></i>
-                    </div>
-                    <div class="project-place flex">
-                        <i class="fab fa-github box-icon"></i>
-                        <i class="fas fa-server box-icon"></i>
-                    </div>
+                        <h3 class="Project-name"> Zero Academy </h3>
+                        <p class="project-details"> Zero Academy Clone </p>
+                        <div class="langauge-used flex">
+                          <i class="fab fa-html5 box-icon"></i>
+                          <i class="fab fa-css3 box-icon"></i>
+                          <i class="fab fa-js box-icon"></i>
+                        </div>
+                        <div class="project-place">
+                          <p> Working on it </p>
+                        </div>
                     </div>
                     
                 </div>
@@ -144,7 +146,7 @@
         </div>
     </section>
     <!-- services -->
-    <section class="services-sec main-padd">
+    <section class="services-sec main-padd" id="services">
         <div class="heading-container flex-center">
             <h2 class="sec-heading"> What We Offer </h2>
         </div>
@@ -203,9 +205,9 @@
                     <img src="images/work/work1.webp" alt="">
                 </figure>
                 <div class="radio-parent flex-center">
-                    <input type="radio" name="chose" id="">
-                    <input type="radio" name="chose" id="">
-                    <input type="radio" name="chose" id="">
+                    <span class="radio-active"></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>
@@ -236,7 +238,7 @@
         </div>
     </section>
     <!-- price-section -->
-    <section class="prices-sec main-padd" id="prices">
+    <section class="prices-sec main-padd" id="prices" id="prices">
         <div class="heading-container flex-center">
             <h2 class="sec-heading"> Prices </h2>
         </div>
@@ -247,25 +249,25 @@
                     <p class="price"> $9 </p>
                     <p class="time"> /Month </p>
                 </div>
-                <p class="price-detail"> try it </p>
+                <p class="price-detail"> Not Bad </p>
                 <button class="purchase-btn"> Purchase Now </button>
             </div>
             <div class="price-box sec-layer-box text-center top-left-layer">
                 <h3 class="price-heading"> Recommended Plan </h3>
                 <div class="price-per-time">
-                    <p class="price"> $9 </p>
-                    <p class="time"> /Month </p>
+                    <p class="price"> $50 </p>
+                    <p class="time"> /Year </p>
                 </div>
-                <p class="price-detail"> This what our Agency about</p>
+                <p class="price-detail"> We recommend this </p>
                 <button class="purchase-btn"> Purchase Now </button>
             </div>
             <div class="price-box sec-layer-box text-center top-left-layer">
-                <h3 class="price-heading"> Luxry Plan </h3>
+                <h3 class="price-heading"> Luxary Plan </h3>
                 <div class="price-per-time">
-                    <p class="price"> $9 </p>
-                    <p class="time"> /Month </p>
+                    <p class="price"> $500 </p>
+                    <p class="time"> /LifeTime </p>
                 </div>
-                <p class="price-detail"> So you can get your job Done! </p>
+                <p class="price-detail"> VIP </p>
                 <button class="purchase-btn"> Purchase Now </button>
             </div>
         </div>        
@@ -276,7 +278,7 @@
             <div class="banar-box"> 
                <div class="upper flex">
                 <figure>
-                    <img src="images/team/team1.webp" alt="person" >
+                    <img src="images/people/profile-11.jpg" alt="person" >
                 </figure>
                 <div class="person-info">
                     <P class="person-name"> William Qazi </p>
@@ -288,7 +290,7 @@
             <div class="banar-box"> 
                 <div class="upper flex">
                  <figure>
-                    <img src="images/team/team2.webp" alt="person" >
+                    <img src="images/people/profile-15.jpg" alt="person" >
                  </figure>
                  <div class="person-info">
                     <P class="person-name"> Jhon jones </p>
@@ -300,7 +302,7 @@
         </div>
     </section>
     <!-- team-section -->
-    <section class="team-sec main-padd">
+    <section class="team-sec main-padd" id="team">
         <div class="heading-container flex-center">
             <h2 class="sec-heading"> Our Team </h2>
         </div>
@@ -315,11 +317,11 @@
                             <i class="fab fa-whatsapp"></i>
                         </div>
                     </div>
-                    <div class="member-info">
-                        <h3 class="member-name"> Omar Mohamed </h3>
-                        <p class="member-job"> Web Developer </p>
-                    </div>
-                </figure>
+                </figure>    
+                <div class="member-info">
+                    <h3 class="member-name"> Omar Mohamed </h3>
+                    <p class="member-job"> Web Developer </p>
+                </div>
             </div>
             <div class="member-box">
                 <figure>
@@ -329,14 +331,13 @@
                             <i class="fab fa-facebook"></i>
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-whatsapp"></i>
-                        </div>
-                        
+                        </div>    
                     </div>
-                    <div class="member-info">
-                        <h3 class="member-name"> Ali Salih </h3>
-                        <p class="member-job"> CEO </p>
+                </figure>    
+                <div class="member-info">
+                    <h3 class="member-name"> Ali Salih </h3>
+                    <p class="member-job"> CEO </p>
                     </div>
-                </figure>
             </div>
             <div class="member-box">
                 <figure>
@@ -346,13 +347,13 @@
                             <i class="fab fa-facebook"></i>
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-whatsapp"></i>
-                        </div>   
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member-name"> Yassir Marwan </h3>
-                        <p class="member-job"> Project Manager </p>
+                        </div>    
                     </div>
                 </figure>
+                <div class="member-info">
+                    <h3 class="member-name"> Yassir Marwan </h3>
+                    <p class="member-job"> Project Manager </p>
+                </div>   
             </div>
         </div>
     </section>
@@ -364,7 +365,7 @@
         <div class="sec-container grid">
             <div class="new-box">
                 <figure>
-                    <img src="images/team/team1.webp" alt="member">
+                    <img src="images/work/work4.webp" alt="member">
                 </figure>
                 <div class="news-info flex">
                     <div class="writer">
@@ -381,14 +382,15 @@
                     </div>
                 </div>
                 <h3 class="news-heading"> Big Announcement! </h3>
-                <p class="news-details"> Actually we so happy to announce that , we contract with meta , so most of their works will be done by members
-                     from our team
+                <p class="news-details"> Actually we so happy to announce that , we contract with meta , so most of their works will be
+                     done by members from our team
+                     
                 </p>
                 <button class="read-more-btn"> Read More...</button> 
             </div>
             <div class="new-box">
                 <figure>
-                    <img src="images/team/team1.webp" alt="member">
+                    <img src="images/work/work6.webp" alt="member">
                 </figure>
                 <div class="news-info flex">
                     <div class="writer">
@@ -412,7 +414,7 @@
             </div>
             <div class="new-box">
                 <figure>
-                    <img src="images/team/team1.webp" alt="member">
+                    <img src="images/work/work5.webp" alt="member">
                 </figure>
                 <div class="news-info flex">
                     <div class="writer">
@@ -429,8 +431,8 @@
                     </div>
                 </div>
                 <h3 class="news-heading"> Big Announcement! </h3>
-                <p class="news-details"> Actually we so happy to announce that , we contract with meta , so most of their works will be done by members
-                     from our team
+                <p class="news-details"> Actually we so happy to announce that , we contract with meta , so most of their works will 
+                    be done by members from our team     
                 </p>
                 <button class="read-more-btn"> Read More...</button> 
             </div>
@@ -442,14 +444,16 @@
                 <div class="start flex">
                     <h2 class="site-logo"> A+ </h2>
                     <div class="developer-accounts flex">
-                        <i class="fab fa-facebook flex-center"></i>
-                        <i class="fab fa-github flex-center"></i>
-                        <i class="fab fa-whatsapp flex-center"></i>
-                        <i class="fab fa-linkedin-in flex-center"></i>
+                        <a href="https://www.facebook.com/rabie.khalifa"> <i class="fab fa-facebook flex-center"></i> </a>
+                        <a href="https://github.com/Rabe397"> <i class="fab fa-github flex-center"></i> </a>
+                        <a href="https://wa.me/+249113583477/?text="> <i class="fab fa-whatsapp flex-center"></i> </a>
+                        <a href="https://www.linkedin.com/in/rabee-khalifa-0a0630281"> <i class="fab fa-linkedin-in flex-center"></i> </a>
                     </div>
                 </div>
                 <div class="copy-right text-center"> Developed by Rabee&copy; 2024</div>
             </div>
         </footer>
+        <!-- main-js -->
+        <script src="js/script.js"></script>
 </body>
 </html>

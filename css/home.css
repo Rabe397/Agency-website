@@ -157,8 +157,8 @@
     padding: 20px 0; 
 }
 .price-per-time{
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     margin: 15px auto;
     border-radius: 50%;
     border: 1px solid var(--main-color);
